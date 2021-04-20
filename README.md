@@ -6,9 +6,9 @@ This script can be used either to enumerate valid usernames (checking tool's log
 
 ### Real-world observations
 
- * If user account is disabled then enumeration might work but you won't be able to guess password! (cannot verify valid credentials via ADFS)
- * If user is locked out (likely soft locked out too) then you won't be able to guess password! (cannot verify valid credentials via ADFS)
- * During username enumeration, default user accounts such as administrator, defaultaccount, krbtgt may not always look like valid usernames based on response time. Still, they're there just giving response times that doesn't make sense
+ * If the user account is disabled then enumeration might work but you won't be able to guess password! (cannot verify valid credentials via ADFS)
+ * If the user is locked out (likely soft locked out too) then you won't be able to guess password! (cannot verify valid credentials via ADFS)
+ * During username enumeration, default user accounts such as administrator, defaultaccount, krbtgt may not always look like valid usernames based on response time. Still, they're there just giving response times that don't make sense
 
 ## Username enumeration
 
